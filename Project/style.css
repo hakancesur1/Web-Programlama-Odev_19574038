@@ -1,0 +1,71 @@
+header {
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	color:green;
+	}
+
+h2.page{
+	color:red;
+	font-style: italic;
+	}
+
+fieldset.color1 {background-color:#00FFFF}
+
+legend {font-style:italic}
+
+form{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	}
+
+p input[type="text"]{
+		width:40%;
+		text-align:center;
+		display:block;
+		font-style:italic;
+		color:gray;
+	}
+
+p input.clicked[type="text"]{
+		width:40%;
+		text-align:center;
+		display:block;
+		font-size:bold;
+	}
+
+p input[type="password"]{
+		width:40%;
+		text-align:center;
+		display:block;
+		font-style:italic;
+		color:gray;
+	}
+
+p.para{
+	margin-top:1em;
+	position:relative;
+	}
+
+textarea.forInput{
+	background-color:light-green;
+	color:blue;
+	text-align:center;
+}
+
+p input.forParameter{
+	background-color:light-green;
+	color:blue;
+	text-align:center;
+}
+
+body.forPhp{
+	background-color: #00FFFF;
+}
+
+div.forPhpPara{
+	text-align:center;
+	background-color:red;
+}

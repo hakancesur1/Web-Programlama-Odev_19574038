@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<h1>String Formatter</h1>
+	</header>
+	
+	<h2 class="page">Sign Up!</h2>
+	
+	<form id="signupForm" action="php.php" method="post" >
+	
+	<fieldset class="color1">
+	
+	<legend>Login Page</legend>
+	
+	<p class="para">
+		<label for="userName" id="userNameLabel" name="userNameLabel">User Name:</label>
+		<input id="userName" name="userName" type="text" placeholder="Enter Your User Name">
+	</p>
+	
+	<p class="para">
+		<label for="password" id="passwordLabel" name="passwordLabel">Password:</label>
+		<input id="password" name="password" type="password" placeholder="xxxx">
+	</p>
+	
+	<p class="para">
+		<label for="confirmPassword">Confirm Password:</label>
+		<input id="confirmPassword" name="confirmPassword" type="password" disabled>
+	</p>
+	
+	<p>
+		<label for="newUser">New User</label>
+		<input id="newUser" name="newUser" type="checkbox">
+	</p>
+	
+	<p>
+		<input id="login" type="submit" value="Login">
+		<input type="reset" value="Reset">
+	</p>
+	
+	<p id="notification">If you are not have an account, please Click New User and create user! Click this to close notification...</p>
+	</fieldset>
+	
+	</form>
+	
+</body>
+
+</html>
